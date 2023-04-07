@@ -30,7 +30,7 @@
             </a>
             <ul class="header-list list">
               <li class="header-item active-nav">
-                <a class="header-link link " href="./index.html"> Studio </a>
+                <a class="header-link link" href="./index.html"> Studio </a>
               </li>
               <li class="header-item">
                 <a class="header-link link" href="./portfolio.html">
@@ -64,7 +64,7 @@
       <section class="hero">
         <div class="hero-main container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
-          <button class="hero-btn btn-size" type="button">Order Service</button>
+          <button class="hero-btn btn-size" data-modal-open type="button">Order Service</button>
         </div>
       </section>
       <!--Section list Our advantages-->
@@ -356,7 +356,7 @@
               </a>
             </li>
             <li class="customers-item">
-              <a href="" class="customers-link link"> 
+              <a href="" class="customers-link link">
                 <svg class="logo-clients" widht="104" height="56">
                   <use href="./images/icons.svg#icon-client_4"></use>
                 </svg>
@@ -395,7 +395,7 @@
           <p class="soc-foot-description">Social media</p>
           <ul class="list-footer-soc list">
             <li class="item-footer-soc">
-              <a href="" class="link-footer-soc" >
+              <a href="" class="link-footer-soc">
                 <svg class="icon-footer-soc" width="24" height="24">
                   <use href="./images/icons.svg#icon-instagram"></use>
                 </svg>
@@ -426,5 +426,11 @@
         </div>
       </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" data-modal-close class="modal-close-btn">X</button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>

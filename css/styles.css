@@ -727,3 +727,42 @@ body {
 .icon-footer-soc {
   fill: #f4f4fd;
 }
+
+/*------------------BACKDROP---------------
+-------------------------------------------*/
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(46, 47, 66, 0.66);
+}
+
+.modal {
+  width: 408px;
+  min-height: 576px;
+  background-color: #fcfcfc;
+  border-radius: 4px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 24px;
+}
+
+.modal-close-btn {
+  width: 24px;
+  height: 24px;
+  background-color: #E7E9FC;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+}
+
+.is-hidden{
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
